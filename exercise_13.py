@@ -1,8 +1,8 @@
-# x = input('enter any number')
-# if x == '7':
-#     print('7 is a lucky number! Today is your lucky day')
-# else:
-#     print('Thank you! Have a nice day')
+x = input('enter any number')
+if x == '7':
+    print('7 is a lucky number! Today is your lucky day')
+else:
+    print('Thank you! Have a nice day')
 
 height = input('Ваш рост')
 weight = input('Ваш вес')
@@ -21,3 +21,11 @@ elif bmi <= 40.0:
 elif bmi >= 40.1:
     print('У вас ожирение 3 степени')
 
+
+
+
+x = int(input('enter an integer number'))
+if x%2 == 0:
+    print('the number is even')
+else:
+    print('the number is odd')
